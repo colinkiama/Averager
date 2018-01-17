@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Averager.ColinKiama</id>
+    <title>Averager</title>
+    <summary>Calculates averages easily in UWP apps</summary>
+    <version>1.0.0</version>
+    <authors>colinkiama</authors>
+    <owners>colinkiama</owners>
+    <licenseUrl>https://raw.githubusercontent.com/colinkiama/Averager/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/colinkiama/Averager</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Calculates averages easily in UWP apps</description>
+    <releaseNotes>Summaries are now available for all events!</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>average maths quick math windows10 calculations calculator averager uwp windows 10 class runtime component universal</tags>
+  </metadata>
+  <files>
+    <!-- WinMd and IntelliSense -->
+  <file src=".\bin\Release\Averager.winmd" target="lib\uap10.0"/>
+  <file src=".\bin\Release\Averager.xml" target="lib\uap10.0"/>
+
+<!-- XAML controls -->
+
+<!-- DLLs and resources -->
+
+
+<file src=".\bin\x86\Release\Averager.pri" target="runtimes\win10-x86\native"/>
+<file src=".\bin\x64\Release\Averager.pri" target="runtimes\win10-x64\native"/>
+<file src=".\bin\ARM\Release\Averager.pri" target="runtimes\win10-arm\native"/>
+
+
+
+
+<!-- .targets -->
+<file src="Averager.targets" target="build\native"/>
+
+
+  </files>
+</package>

@@ -10,7 +10,12 @@ namespace Averager
     public sealed class AverageCalculator
     
     {
-        //IEnumerable<double> nums
+        
+        /// <summary>
+        /// Returns the average from an array of double.
+        /// </summary>
+        /// <param name="nums"></param>
+        /// <returns></returns>
         public static double GetAverage(params double[] nums)
         {
             double[] numsToAverage = nums.ToArray();
