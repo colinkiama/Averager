@@ -32,13 +32,12 @@ namespace Test
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            //Works with anything that implements IEnumberable e.g Lists, arrays etc.
+            //You can use a double array or enter each of the numbers yourself 
 
-            //List<double> numbers = new List<double> { 10, 10, 10, 10, 10 };
-            double[] numbers = { 10, 10, 10, 10, 10 };
-
+            //double[] numbers = { 10, 10, 10, 10, 10 };
+            //double average = AverageCalculator.GetAverage(numbers);
             
-            double average = AverageCalculator.GetAverage(numbers);
+            double average = AverageCalculator.GetAverage(1,2,3,4,5,6,7,8,9,10);
             Debug.WriteLine(average);
         }
     }
