@@ -16,7 +16,7 @@ There are two ways to use this:
 First method:
 ```
 // Create a list/arrary and enter it as the argument
-int[] numbers = {1,2,3);
+int[] numbers = {1,2,3};
 AverageCalculator.GetAverage(numbers); // returns 2;
 ```
 
