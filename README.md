@@ -14,14 +14,14 @@ In a a Universal Windows Project, go to Tools > NuGet Package Manager > Manage N
 There are two ways to use this:
 
 First method:
-```
+``` C#
 // Create a list/arrary and enter it as the argument
 int[] numbers = {1,2,3};
 AverageCalculator.GetAverage(numbers); // returns 2;
 ```
 
 Second Method: 
-```
+``` C#
 // Manually list any number of arguments yourself
 AverageCalculator.GetAverage(1,2,3); // returns 2;
 ```
